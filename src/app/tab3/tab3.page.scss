@@ -1,0 +1,9 @@
+ion-item {
+    --padding-start: 5px;
+    --background: #F09329;
+    --border-color: #d1770f;
+
+    &:hover {
+        --background: #474649;
+    }
+}
