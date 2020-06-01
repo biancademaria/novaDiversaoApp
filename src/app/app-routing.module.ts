@@ -5,13 +5,10 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
-  },  {
-    path: 'ad-astra',
-    loadChildren: () => import('./filmes/ad-astra/ad-astra.module').then( m => m.AdAstraPageModule)
   },
   {
-    path: 'scooby-ofilme',
-    loadChildren: () => import('./filmes/scooby-ofilme/scooby-ofilme.module').then( m => m.ScoobyOFilmePageModule)
+    path: 'ad-astra',
+    loadChildren: () => import('./filmes/ad-astra/ad-astra.module').then( m => m.AdAstraPageModule)
   },
   {
     path: 'blood-and-money',
@@ -20,14 +17,6 @@ const routes: Routes = [
   {
     path: 'a-ilha-da-fantasia',
     loadChildren: () => import('./filmes/a-ilha-da-fantasia/a-ilha-da-fantasia.module').then( m => m.AIlhaDaFantasiaPageModule)
-  },
-  {
-    path: 'scooby-ofilme',
-    loadChildren: () => import('./filmes/scooby-ofilme/scooby-ofilme.module').then( m => m.ScoobyOfilmePageModule)
-  },
-  {
-    path: 'scooby-ofilme',
-    loadChildren: () => import('./filmes/scooby-ofilme/scooby-ofilme.module').then( m => m.ScoobyOFilmePageModule)
   },
   {
     path: 'filme-scooby-doo',
