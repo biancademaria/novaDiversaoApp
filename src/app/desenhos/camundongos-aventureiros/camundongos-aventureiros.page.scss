@@ -1,0 +1,73 @@
+.banner {
+    background: url("https://i1.wp.com/www.cybertv.com.br/wp-content/uploads/2017/02/oscamundongosaventureiros.png?fit=640%2C359&ssl=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    position: relative;
+    padding: 15px;
+}
+
+.info-banner {
+    position: absolute;
+    bottom: 15px;
+    
+    h2,
+    p {
+        color: #000000;
+        font-weight: bold;;
+    }
+    H2 {
+        font-size: 20PX;
+        margin: 0;
+    }
+
+    h3,
+    p {
+        color: #FFFFFF;
+    }
+    H3 {
+        font-size: 15PX;
+        margin: 0;
+        font-weight: normal;
+    }
+    
+    p{
+        font-size: 12px;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+}
+.ion-toolbar {
+    height: 40px;
+}
+
+.info {
+    width: 100%;
+    margin: 10px;
+    padding: 0;
+
+    .tipo {
+        border: 1px solid #CCCCCC;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 12px;
+        font-weight: lighter;
+    }
+
+    .duracao {
+    margin-left: 15px;
+    }
+
+    p {
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+}
+
+.titulo-card {
+    font: bold;
+}

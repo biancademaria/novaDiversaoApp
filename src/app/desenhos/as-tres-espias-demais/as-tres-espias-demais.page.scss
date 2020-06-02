@@ -1,0 +1,73 @@
+.banner {
+    background: url("https://i.pinimg.com/originals/ff/fa/5a/fffa5a819540b0c73fce9e60f2e35e0a.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    position: relative;
+    padding: 15px;
+}
+
+.info-banner {
+    position: absolute;
+    bottom: 15px;
+    
+    h2,
+    p {
+        color: #FFFFFF;
+        font-weight: bold;;
+    }
+    H2 {
+        font-size: 20PX;
+        margin: 0;
+    }
+
+    h3,
+    p {
+        color: #FFFFFF;
+    }
+    H3 {
+        font-size: 15PX;
+        margin: 0;
+        font-weight: normal;
+    }
+    
+    p{
+        font-size: 12px;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+}
+.ion-toolbar {
+    height: 40px;
+}
+
+.info {
+    width: 100%;
+    margin: 10px;
+    padding: 0;
+
+    .tipo {
+        border: 1px solid #CCCCCC;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 12px;
+        font-weight: lighter;
+    }
+
+    .duracao {
+    margin-left: 15px;
+    }
+
+    p {
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+}
+
+.titulo-card {
+    font: bold;
+}
